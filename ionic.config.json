@@ -1,0 +1,7 @@
+{
+  "name": "devdacticSpotify",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
