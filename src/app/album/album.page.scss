@@ -1,0 +1,45 @@
+ion-item {
+    --ion-item-background: transparent;
+    color: #fff;
+
+    p {
+        color: #949494;
+    }
+}
+
+ion-list {
+    --ion-background-color: var(--ion-color-dark);
+}
+
+ion-title, ion-content {
+    font-family: 'Spotify';
+}
+
+.album-info {
+    color: #fff;
+    margin-left: 11px;
+    p {
+        font-weight: bold;
+    }
+}
+
+.image-box {
+    position: fixed;
+    z-index: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+ion-row {
+    padding-top: 40vh;
+}
+
+ion-content {
+    --background: linear-gradient(var(--custombg) 400px, var(--ion-color-dark) 400px);
+}
+
+.main {
+    z-index: 10;
+    background: linear-gradient(var(--custombg) 20%, var(--ion-color-dark) 30%);
+}
